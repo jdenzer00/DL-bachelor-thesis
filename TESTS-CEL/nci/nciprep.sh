@@ -1,0 +1,10 @@
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt
+../../../sofronie/DL/cel/cel < input-nci-prep.test > output-nci-prep.txt

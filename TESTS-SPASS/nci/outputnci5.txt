@@ -1,0 +1,320 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.71 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.14 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.08 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.83 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.59 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.04 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:51.97 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.71 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.57 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.02 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.06 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.74 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.59 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.05 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:51.99 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.77 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.58 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.65 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.08 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci5.dfg 
+SPASS derived 14 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142855 KBytes.
+SPASS spent	0:00:52.04 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.77 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.20 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> ABDUCENT_NERVE_PARALYSIS(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3071[0:Inp] PARALYSIS(U) ||  -> MOTOR_MANIFESTATIONS(U)*.
+3072[0:Inp] ABDUCENT_NERVE_PARALYSIS(U) ||  -> CRANIAL_NERVE_PARALYSIS(U)*.
+3073[0:Inp] MOTOR_MANIFESTATIONS(U) ||  -> NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U)*.
+3074[0:Inp] CLINICAL_FINDING(U) ||  -> FINDING(U)*.
+3075[0:Inp] NERVE_PARALYSIS(U) ||  -> PARALYSIS(U)*.
+3076[0:Inp] CRANIAL_NERVE_PARALYSIS(U) ||  -> NERVE_PARALYSIS(U)*.
+3398[0:Inp] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(U) ||  -> CLINICAL_FINDING(U)*.
+6824[0:Res:1.0,3072.0] ||  -> CRANIAL_NERVE_PARALYSIS(skc1)*.
+6826[0:Res:3074.1,2.0] CLINICAL_FINDING(skc1) ||  -> .
+12018[0:SoR:6826.0,3398.1] NEUROLOGICAL_SIGNS_AND_SYMPTOMS(skc1) ||  -> .
+12019[0:SSi:12018.0,3076.0,3075.0,3071.1,3073.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1180 A1179 A1178 A1177 A1176 A1175 A639
+

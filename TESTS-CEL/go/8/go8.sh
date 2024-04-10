@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt
+../../../../sofronie/DL/cel/cel < input-go-8-one.test > output-go-8-one.txt

@@ -1,0 +1,115 @@
+--------------------------SPASS-START-----------------------------
+Input Problem:
+1[0:Inp] ||  -> VIRUS(skc1)*.
+2[0:Inp] || LEBEWESEN(skc1)* -> .
+3[0:Inp] ||  -> LEBEWESEN(skf5(U))*.
+4[0:Inp] ||  -> TIER(skf7(U))*.
+5[0:Inp] ||  -> TIER(skf9(U))*.
+6[0:Inp] || PARASIT(U)* -> TIER(U).
+7[0:Inp] || VIRUS(U) -> PARASIT(U)*.
+8[0:Inp] || PARASIT(U)* -> TIER(U).
+9[0:Inp] || HERBIVOR(U)* -> TIER(U).
+10[0:Inp] || KARNIVOR(U)* -> TIER(U).
+11[0:Inp] || PILZ(U) -> LEBEWESEN(U)*.
+12[0:Inp] || TIER(U) -> LEBEWESEN(U)*.
+13[0:Inp] || PFLANZE(U) -> LEBEWESEN(U)*.
+14[0:Inp] || OMNIVOR(U)* -> PFLANZE(skf6(V))*.
+15[0:Inp] || HERBIVOR(U)* -> PFLANZE(skf8(V))*.
+16[0:Inp] || PARASIT(U) -> BEFAELLT(U,skf5(U))*.
+17[0:Inp] || OMNIVOR(U) -> FRISST(U,skf6(U))*.
+18[0:Inp] || OMNIVOR(U) -> FRISST(U,skf7(U))*.
+19[0:Inp] || HERBIVOR(U) -> FRISST(U,skf8(U))*.
+20[0:Inp] || KARNIVOR(U) -> TOETET(U,skf9(U))*.
+21[0:Inp] || BEFAELLT(U,V)* FRISST(V,W)* -> TOETET(U,W)*.
+22[0:Inp] || TIER(U) BEFAELLT(U,V)* LEBEWESEN(V) -> PARASIT(U).
+23[0:Inp] || TIER(U) FRISST(U,V)* PFLANZE(V) -> HERBIVOR(U).
+24[0:Inp] || TIER(U) TOETET(U,V)* TIER(V) -> KARNIVOR(U).
+25[0:Inp] || FRISST(U,V)* PFLANZE(V) FRISST(U,W)* TIER(W) -> OMNIVOR(U).
+ This is a first-order Horn problem without equality.
+ This is a problem that contains sort information.
+ The conjecture is ground.
+ The following monadic predicates have finite extensions: VIRUS.
+ Axiom clauses: 23 Conjecture clauses: 2
+ Inferences: IEmS=1 ISoR=1 IORe=1 
+ Reductions: RFMRR=1 RBMRR=1 RObv=1 RUnC=1 RTaut=1 RSST=1 RSSi=1 RFSub=1 RBSub=1 RCon=1 
+ Extras    : Input Saturation, Dynamic Selection, No Splitting, Full Reduction,  Ratio: 5, FuncWeight: 1, VarWeight: 1
+ Precedence: skf0 > skf1 > skf2 > skf3 > skf4 > skf5 > skf6 > skf7 > skf8 > skf9 > pflanze > TOETET > FRISST > BEFAELLT > PARASIT > OMNIVOR > HERBIVOR > KARNIVOR > LEBEWESEN > TIER > PFLANZE > tier > pilz > PILZ > lebewesen > karnivor > herbivor > omnivor > parasit > virus > VIRUS > befaellt > frisst > toetet > skc0 > skc1 > skc2 > skc3 > skc4 > skc5 > skc6
+ Ordering  : KBO
+Processed Problem:
+
+Worked Off Clauses:
+
+Usable Clauses:
+1[0:Inp] ||  -> VIRUS(skc1)*.
+26[0:Res:1.0,7.0] ||  -> PARASIT(skc1)*.
+2[0:Inp] || LEBEWESEN(skc1)* -> .
+3[0:Inp] ||  -> LEBEWESEN(skf5(U))*.
+5[0:Inp] ||  -> TIER(skf9(U))*.
+4[0:Inp] ||  -> TIER(skf7(U))*.
+27[0:Res:11.1,2.0] PILZ(skc1) ||  -> .
+29[0:Res:13.1,2.0] PFLANZE(skc1) ||  -> .
+28[0:Res:12.1,2.0] TIER(skc1) ||  -> .
+7[0:Inp] VIRUS(U) ||  -> PARASIT(U)*.
+11[0:Inp] PILZ(U) ||  -> LEBEWESEN(U)*.
+13[0:Inp] PFLANZE(U) ||  -> LEBEWESEN(U)*.
+12[0:Inp] TIER(U) ||  -> LEBEWESEN(U)*.
+10[0:Inp] KARNIVOR(U) ||  -> TIER(U)*.
+9[0:Inp] HERBIVOR(U) ||  -> TIER(U)*.
+8[0:Inp] PARASIT(U) ||  -> TIER(U)*.
+15[0:Inp] HERBIVOR(U) ||  -> PFLANZE(skf8(V))*.
+14[0:Inp] OMNIVOR(U) ||  -> PFLANZE(skf6(V))*.
+20[0:Inp] KARNIVOR(U) ||  -> TOETET(U,skf9(U))*.
+16[0:Inp] PARASIT(U) ||  -> BEFAELLT(U,skf5(U))*.
+19[0:Inp] HERBIVOR(U) ||  -> FRISST(U,skf8(U))*.
+18[0:Inp] OMNIVOR(U) ||  -> FRISST(U,skf7(U))*.
+17[0:Inp] OMNIVOR(U) ||  -> FRISST(U,skf6(U))*.
+21[0:Inp] || FRISST(U,V)* BEFAELLT(W,U)* -> TOETET(W,V)*.
+24[0:Inp] TIER(U) TIER(V) || TOETET(V,U)* -> KARNIVOR(V).
+23[0:Inp] PFLANZE(U) TIER(V) || FRISST(V,U)* -> HERBIVOR(V).
+22[0:Inp] LEBEWESEN(U) TIER(V) || BEFAELLT(V,U)* -> PARASIT(V).
+25[0:Inp] TIER(U) PFLANZE(V) || FRISST(W,V)* FRISST(W,U)* -> OMNIVOR(W).
+	Given clause: 1[0:Inp] ||  -> VIRUS(skc1)*.
+	Given clause: 26[0:Res:1.0,7.0] ||  -> PARASIT(skc1)*.
+	Given clause: 2[0:Inp] || LEBEWESEN(skc1)* -> .
+	Given clause: 27[0:Res:11.1,2.0] PILZ(skc1) ||  -> .
+	Given clause: 3[0:Inp] ||  -> LEBEWESEN(skf5(U))*.
+	Given clause: 29[0:Res:13.1,2.0] PFLANZE(skc1) ||  -> .
+	Given clause: 28[0:Res:12.1,2.0] TIER(skc1) ||  -> .
+	Given clause: 5[0:Inp] ||  -> TIER(skf9(U))*.
+	Given clause: 4[0:Inp] ||  -> TIER(skf7(U))*.
+	Given clause: 7[0:Inp] VIRUS(U) ||  -> PARASIT(U)*.
+	Given clause: 11[0:Inp] PILZ(U) ||  -> LEBEWESEN(U)*.
+	Given clause: 13[0:Inp] PFLANZE(U) ||  -> LEBEWESEN(U)*.
+	Given clause: 12[0:Inp] TIER(U) ||  -> LEBEWESEN(U)*.
+	Given clause: 10[0:Inp] KARNIVOR(U) ||  -> TIER(U)*.
+	Given clause: 9[0:Inp] HERBIVOR(U) ||  -> TIER(U)*.
+	Given clause: 51[0:SoR:28.0,10.1] KARNIVOR(skc1) ||  -> .
+	Given clause: 52[0:SoR:28.0,9.1] HERBIVOR(skc1) ||  -> .
+	Given clause: 8[0:Inp] PARASIT(U) ||  -> TIER(U)*.
+SPASS V 3.7 
+SPASS beiseite: Proof found.
+Problem: C:\Users\Jan\eclipse-workspace\TranslateCelToDfg\spassInput\bio.dfg 
+SPASS derived 10 clauses, backtracked 0 clauses, performed 0 splits and kept 31 clauses.
+SPASS allocated 30097 KBytes.
+SPASS spent	0:00:00.02 on the problem.
+		0:00:00.00 for the input.
+		0:00:00.00 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.00 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:00.00 for the reduction.
+
+
+Here is a proof with depth 2, length 9 :
+1[0:Inp] ||  -> VIRUS(skc1)*.
+2[0:Inp] || LEBEWESEN(skc1)* -> .
+7[0:Inp] VIRUS(U) ||  -> PARASIT(U)*.
+8[0:Inp] PARASIT(U) ||  -> TIER(U)*.
+12[0:Inp] TIER(U) ||  -> LEBEWESEN(U)*.
+26[0:Res:1.0,7.0] ||  -> PARASIT(skc1)*.
+28[0:Res:12.1,2.0] TIER(skc1) ||  -> .
+53[0:SoR:28.0,8.1] PARASIT(skc1) ||  -> .
+54[0:SSi:53.0,1.0,26.0] ||  -> .
+Formulae used in the proof : C A9 A8 A2
+
+--------------------------SPASS-STOP------------------------------

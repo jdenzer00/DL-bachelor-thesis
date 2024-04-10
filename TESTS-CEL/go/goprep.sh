@@ -1,0 +1,10 @@
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt
+../../../sofronie/DL/cel/cel < input-go-prep.test > output-go-prep.txt

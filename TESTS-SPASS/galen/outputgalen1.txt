@@ -1,0 +1,360 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:12.98 on the problem.
+		0:00:00.05 for the input.
+		0:03:08.60 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.48 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:19.88 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.59 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.94 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:12.19 on the problem.
+		0:00:00.05 for the input.
+		0:03:07.91 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.39 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:04:56.39 on the problem.
+		0:00:00.05 for the input.
+		0:03:02.79 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.73 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:13.16 on the problem.
+		0:00:00.05 for the input.
+		0:03:08.79 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.47 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:19.54 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.19 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.93 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:19.21 on the problem.
+		0:00:00.05 for the input.
+		0:03:13.93 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.95 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:04:58.75 on the problem.
+		0:00:00.05 for the input.
+		0:03:03.95 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.63 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:04:55.31 on the problem.
+		0:00:00.05 for the input.
+		0:03:01.84 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.67 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen1.dfg 
+SPASS derived 11 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301167 KBytes.
+SPASS spent	0:05:12.48 on the problem.
+		0:00:00.05 for the input.
+		0:03:08.04 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.06 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.46 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> HEMISPHERE(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+90[0:Inp] MORPHOLOGYSTATE(U) ||  -> STRUCTURALSTATE(U)*.
+91[0:Inp] SECTIONOFSPHERE(U) ||  -> SOLIDSHAPE(U)*.
+92[0:Inp] SHAPESTATE(U) ||  -> MORPHOLOGYSTATE(U)*.
+131[0:Inp] SOLIDSHAPE(U) ||  -> ABSOLUTESHAPESTATE(U)*.
+135[0:Inp] ABSOLUTESHAPESTATE(U) ||  -> SHAPESTATE(U)*.
+1857[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+1858[0:Inp] STRUCTURALSTATE(U) ||  -> STATE(U)*.
+1859[0:Inp] DOME(U) ||  -> SECTIONOFSPHERE(U)*.
+1860[0:Inp] HEMISPHERE(U) ||  -> DOME(U)*.
+12263[0:Res:1.0,1860.0] ||  -> DOME(skc1)*.
+12264[0:Res:1857.1,2.0] STATE(skc1) ||  -> .
+20395[0:SoR:12264.0,1858.1] STRUCTURALSTATE(skc1) ||  -> .
+20396[0:SoR:20395.0,90.1] MORPHOLOGYSTATE(skc1) ||  -> .
+20402[0:SoR:20396.0,92.1] SHAPESTATE(skc1) ||  -> .
+20403[0:SSi:20402.0,1859.0,91.0,131.1,135.1,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4719 A4718 A4717 A4657 A4653 A2063 A2062 A2061 A2060
+

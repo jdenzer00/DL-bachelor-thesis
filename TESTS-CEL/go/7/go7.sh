@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt
+../../../../sofronie/DL/cel/cel < input-go-7-one.test > output-go-7-one.txt

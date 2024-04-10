@@ -1,0 +1,360 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.77 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.63 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.50 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.88 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.74 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.52 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:52.26 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.95 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.86 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.69 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.52 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.73 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.58 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.51 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.70 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.54 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.51 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.70 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.56 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.52 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.95 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.80 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.52 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.62 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.52 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.52 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci2.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142835 KBytes.
+SPASS spent	0:00:51.80 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.67 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.22 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.52 for the reduction.
+
+
+Here is a proof with depth 4, length 17 :
+1[0:Inp] ||  -> PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3211[0:Inp] PHOSPHOPROTEIN_PHOSPHATASE(U) ||  -> PHOSPHATASE(U)*.
+3212[0:Inp] PHOSPHATASE(U) ||  -> HYDROLASE(U)*.
+3215[0:Inp] HYDROLASE(U) ||  -> ENZYME(U)*.
+3217[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE(U) ||  -> PHOSPHOPROTEIN_PHOSPHATASE(U)*.
+3219[0:Inp] PROTEIN_TYROSINE_PHOSPHATASE_NONRECEPTOR_TYPE_7(U) ||  -> PROTEIN_TYROSINE_PHOSPHATASE(U)*.
+3230[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3233[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3234[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3235[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+6824[0:Res:1.0,3219.0] ||  -> PROTEIN_TYROSINE_PHOSPHATASE(skc1)*.
+6825[0:Res:3233.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3234.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3235.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3230.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3217.0,3211.0,3212.1,3215.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A837 A836 A833 A831 A829 A818 A815 A814 A813
+

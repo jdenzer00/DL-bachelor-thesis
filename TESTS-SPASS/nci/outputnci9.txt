@@ -1,0 +1,480 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.60 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.07 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.13 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.74 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:51.94 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.71 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.61 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.52 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.00 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.74 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.01 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.80 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.61 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.38 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.89 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.73 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:51.91 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.74 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.60 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.50 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.03 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.74 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.01 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.81 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.61 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.53 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.04 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.13 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.73 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci9.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6694 clauses.
+SPASS allocated 142828 KBytes.
+SPASS spent	0:00:52.62 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.11 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.74 for the reduction.
+
+
+Here is a proof with depth 9, length 29 :
+1[0:Inp] ||  -> SAMR4_MOUSE(skc1)*.
+2[0:Inp] || ORGANISM_KIND(skc1)* -> .
+2166[0:Inp] CASTLE_STRAINS(U) ||  -> A_LATHROP_GRANDBY_19031915(U)*.
+2172[0:Inp] SAMR4_MOUSE(U) ||  -> T_TAKEDA_KYOTO_1970(U)*.
+3241[0:Inp] T_TAKEDA_KYOTO_1970(U) ||  -> AKR_J_(U)*.
+3243[0:Inp] CC_LITTLE_DBR_1909(U) ||  -> CASTLE_STRAINS(U)*.
+3244[0:Inp] J_FURTH_192836_ROCKEFELLER_INST(U) ||  -> STOCK_A(U)*.
+3385[0:Inp] C57RELATED_STRAINS(U) ||  -> INBRED_MOUSE(U)*.
+3386[0:Inp] ORGANISM_STRAINS(U) ||  -> ORGANISMS(U)*.
+3387[0:Inp] CHINA_STRAIN(U) ||  -> C57RELATED_STRAINS(U)*.
+3512[0:Inp] ORGANISMS(U) ||  -> ORGANISM_KIND(U)*.
+3513[0:Inp] STOCK_A(U) ||  -> STRONG(U)*.
+3514[0:Inp] CC_LITTLE_S_DBA_192930(U) ||  -> CC_LITTLE_DBR_1909(U)*.
+3515[0:Inp] AKR_J_(U) ||  -> J_FURTH_192836_ROCKEFELLER_INST(U)*.
+3516[0:Inp] A_LATHROP_GRANDBY_19031915(U) ||  -> CHINA_STRAIN(U)*.
+3517[0:Inp] INBRED_MOUSE(U) ||  -> MOUSE_STRAINS(U)*.
+3518[0:Inp] STRONG(U) ||  -> CC_LITTLE_S_DBA_192930(U)*.
+3519[0:Inp] MOUSE_STRAINS(U) ||  -> ORGANISM_STRAINS(U)*.
+6824[0:Res:1.0,2172.0] ||  -> T_TAKEDA_KYOTO_1970(skc1)*.
+6825[0:Res:3512.1,2.0] ORGANISMS(skc1) ||  -> .
+12008[0:SoR:6825.0,3386.1] ORGANISM_STRAINS(skc1) ||  -> .
+12009[0:SoR:12008.0,3519.1] MOUSE_STRAINS(skc1) ||  -> .
+12011[0:SoR:12009.0,3517.1] INBRED_MOUSE(skc1) ||  -> .
+12013[0:SoR:12011.0,3385.1] C57RELATED_STRAINS(skc1) ||  -> .
+12014[0:SoR:12013.0,3387.1] CHINA_STRAIN(skc1) ||  -> .
+12015[0:SoR:12014.0,3516.1] A_LATHROP_GRANDBY_19031915(skc1) ||  -> .
+12016[0:SoR:12015.0,2166.1] CASTLE_STRAINS(skc1) ||  -> .
+12019[0:SoR:12016.0,3243.1] CC_LITTLE_DBR_1909(skc1) ||  -> .
+12020[0:SSi:12019.0,3241.0,3515.0,3244.1,3513.1,3518.1,3514.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A2524 A2518 A806 A804 A803 A652 A651 A650 A504 A503 A502 A501 A500 A499 A498 A497
+

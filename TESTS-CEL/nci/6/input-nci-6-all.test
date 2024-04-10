@@ -1,0 +1,4 @@
+(load-ontology "../../../../sofronie/DL/ONTOLOGIES/nciOntology.cel")
+(ontology-prepared?)
+(classify-ontology)
+(extract-all-minas |http://www.mindswap.org/2003/nciOncology.owl#t_2_8_| |http://www.mindswap.org/2003/nciOncology.owl#Finding|)

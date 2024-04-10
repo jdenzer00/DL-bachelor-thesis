@@ -1,0 +1,310 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:08.22 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.36 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.12 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:09.22 on the problem.
+		0:00:00.05 for the input.
+		0:03:05.28 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.17 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:08.50 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.56 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.11 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:04:45.17 on the problem.
+		0:00:00.05 for the input.
+		0:02:53.61 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.02 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:10.94 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:07.93 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.00 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.09 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:08.37 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.43 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.08 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:08.19 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.30 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.10 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:02.96 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.05 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.02 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:12.79 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:04:45.72 on the problem.
+		0:00:00.05 for the input.
+		0:02:54.05 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.02 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:10.98 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen6.dfg 
+SPASS derived 9 clauses, backtracked 0 clauses, performed 0 splits and kept 11997 clauses.
+SPASS allocated 301228 KBytes.
+SPASS spent	0:05:08.21 on the problem.
+		0:00:00.05 for the input.
+		0:03:04.36 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.03 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.06 for the reduction.
+
+
+Here is a proof with depth 3, length 12 :
+1[0:Inp] ||  -> BODYMASSINDEX(skc1)*.
+2[0:Inp] || QUANTITY(skc1)* -> .
+1771[0:Inp] SYMBOLICQUANTITY(U) ||  -> QUANTITY(U)*.
+1772[0:Inp] MASSVALUE(U) ||  -> NUMERICQUANTITY(U)*.
+1773[0:Inp] BODYWEIGHTMEASUREMENTRESULT(U) ||  -> MASSVALUE(U)*.
+1774[0:Inp] BODYMASSINDEX(U) ||  -> BODYWEIGHTMEASUREMENTRESULT(U)*.
+1775[0:Inp] NUMERICQUANTITY(U) ||  -> SYMBOLICQUANTITY(U)*.
+12263[0:Res:1.0,1774.0] ||  -> BODYWEIGHTMEASUREMENTRESULT(skc1)*.
+12265[0:Res:1771.1,2.0] SYMBOLICQUANTITY(skc1) ||  -> .
+20396[0:SoR:12265.0,1775.1] NUMERICQUANTITY(skc1) ||  -> .
+20400[0:SoR:20396.0,1772.1] MASSVALUE(skc1) ||  -> .
+20401[0:SSi:20400.0,1773.0,1.0,12263.1] ||  -> .
+Formulae used in the proof : C A2188 A2187 A2186 A2185 A2184
+

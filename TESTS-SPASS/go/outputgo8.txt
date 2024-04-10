@@ -1,0 +1,380 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:48.45 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.55 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.81 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.15 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:47.55 on the problem.
+		0:00:00.06 for the input.
+		0:01:03.08 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.77 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.01 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:48.37 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.45 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.81 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.16 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:47.72 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.19 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.77 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.02 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:48.28 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.36 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.80 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.15 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:47.07 on the problem.
+		0:00:00.06 for the input.
+		0:01:03.06 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.70 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.02 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:47.86 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.70 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.72 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.16 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:46.95 on the problem.
+		0:00:00.06 for the input.
+		0:01:03.15 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.68 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.02 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:47.53 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.38 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.72 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.14 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: go8.dfg 
+SPASS derived 32 clauses, backtracked 0 clauses, performed 0 splits and kept 7477 clauses.
+SPASS allocated 351717 KBytes.
+SPASS spent	0:02:47.38 on the problem.
+		0:00:00.05 for the input.
+		0:01:03.29 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.70 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:03.15 for the reduction.
+
+
+Here is a proof with depth 3, length 19 :
+1[0:Inp] ||  -> GO_0004918(skc1)*.
+2[0:Inp] || GO_0003674(skc1)* -> .
+5438[0:Inp] GO_0004872(U) ||  -> GO_0004871(U)*.
+5463[0:Inp] GO_0001637(U) ||  -> GO_0008528(U)*.
+5465[0:Inp] GO_0004918(U) ||  -> GO_0004907(U)*.
+5466[0:Inp] GO_0004918(U) ||  -> GO_0019959(U)*.
+5467[0:Inp] GO_0004918(U) ||  -> GO_0016494(U)*.
+5469[0:Inp] GO_0016494(U) ||  -> GO_0004950(U)*.
+5476[0:Inp] GO_0004950(U) ||  -> GO_0001637(U)*.
+5478[0:Inp] GO_0001653(U) ||  -> GO_0004872(U)*.
+6371[0:Inp] GO_0008528(U) ||  -> GO_0001653(U)*.
+6373[0:Inp] GO_0004871(U) ||  -> GO_0003674(U)*.
+8260[0:Res:1.0,5465.0] ||  -> GO_0004907(skc1)*.
+8261[0:Res:1.0,5466.0] ||  -> GO_0019959(skc1)*.
+8262[0:Res:1.0,5467.0] ||  -> GO_0016494(skc1)*.
+8269[0:Res:6373.1,2.0] GO_0004871(skc1) ||  -> .
+14939[0:SoR:8269.0,5438.1] GO_0004872(skc1) ||  -> .
+14953[0:SoR:14939.0,5478.1] GO_0001653(skc1) ||  -> .
+14954[0:SSi:14953.0,5469.0,5476.0,5463.0,6371.0,1.1,8261.1,8262.1,8260.1] ||  -> .
+Formulae used in the proof : C A811 A792 A790 A789 A783 A782 A199 A198
+
