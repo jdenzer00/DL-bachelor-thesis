@@ -1,0 +1,50 @@
+International Allegro CL Enterprise Edition
+8.1 [Linux (x86)] (Jul 8, 2009 19:27)
+Copyright (C) 1985-2007, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This standard runtime copy of Allegro CL was built by:
+   [TC10941] TU Dresden - Fakultaet Informatik
+
+
+   * * * * * * * * * * *  CEL Version 1.1.2  * * * * * * * * * * * *
+   *                                                               *
+   *  CEL: [C]lassifier for the Description Logic [E][L]+          *
+   *  Supported description logic: EL+  (el+)                      *
+   *  Copyright (C) 2005-2009: B. Suntisrivaraporn and TU Dresden. *
+   *  CEL comes with ABSOLUTELY NO WARRANTY; use at your own risk. *
+   *  This is free software for research and evaluation purposes.  *
+   *  Commercial use is prohibited; please contact the author.     *
+   *                                                               *
+   *  Try (help) to see what CEL can do!                           *
+   *                                                               *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+CEL(1): Ontology[uri="urn:cel-ontology:default"; state=PREPARED]
+CEL(2): T
+CEL(3): #####################################################################################################
+Ontology[uri="urn:cel-ontology:default"; state=CLASSIFIED]
+CEL(4): 
+;; Preparing for module extraction...Done!
+((IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Mouse_Strains|
+          |http://www.mindswap.org/2003/nciOncology.owl#Organism_Strains|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Strong|
+          |http://www.mindswap.org/2003/nciOncology.owl#CC_Little_s_Dba_1929-30|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#J_Furth_1928-36_Rockefeller_Inst|
+          |http://www.mindswap.org/2003/nciOncology.owl#Stock_A|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Inbred_Mouse|
+          |http://www.mindswap.org/2003/nciOncology.owl#Mouse_Strains|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#C57-related_Strains|
+          |http://www.mindswap.org/2003/nciOncology.owl#Inbred_Mouse|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#China_Strain|
+          |http://www.mindswap.org/2003/nciOncology.owl#C57-related_Strains|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Organisms|
+          |http://www.mindswap.org/2003/nciOncology.owl#Organism_Kind|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#CC_Little_Dbr_1909|
+          |http://www.mindswap.org/2003/nciOncology.owl#Castle_Strains|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#T_Takeda_Kyoto_1970|
+          |http://www.mindswap.org/2003/nciOncology.owl#AKR_J_|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#A_Lathrop_Grandby_1903-1915|
+          |http://www.mindswap.org/2003/nciOncology.owl#China_Strain|)
+ ...)
+CEL(5): EOF
+Really exit lisp [n]? 

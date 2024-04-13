@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt
+../../../../sofronie/DL/cel/cel < input-nci-6-all.test > output-nci-6-all.txt

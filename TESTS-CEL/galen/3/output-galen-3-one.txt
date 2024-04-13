@@ -1,0 +1,54 @@
+International Allegro CL Enterprise Edition
+8.1 [Linux (x86)] (Jul 8, 2009 19:27)
+Copyright (C) 1985-2007, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This standard runtime copy of Allegro CL was built by:
+   [TC10941] TU Dresden - Fakultaet Informatik
+
+
+   * * * * * * * * * * *  CEL Version 1.1.2  * * * * * * * * * * * *
+   *                                                               *
+   *  CEL: [C]lassifier for the Description Logic [E][L]+          *
+   *  Supported description logic: EL+  (el+)                      *
+   *  Copyright (C) 2005-2009: B. Suntisrivaraporn and TU Dresden. *
+   *  CEL comes with ABSOLUTELY NO WARRANTY; use at your own risk. *
+   *  This is free software for research and evaluation purposes.  *
+   *  Commercial use is prohibited; please contact the author.     *
+   *                                                               *
+   *  Try (help) to see what CEL can do!                           *
+   *                                                               *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+CEL(1): Ontology[uri="urn:cel-ontology:default"; state=PREPARED]
+CEL(2): T
+CEL(3): #####################################################################################################
+Ontology[uri="urn:cel-ontology:default"; state=CLASSIFIED]
+CEL(4): 
+;; Preparing for module extraction...Done!
+((EQUIVALENT |http://www.co-ode.org/ontologies/galen#DorsalInterosseusMuscleOfHand|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#hasAnteriorPosteriorSelector|
+                        |http://www.co-ode.org/ontologies/galen#posteriorSelection|)
+                  |http://www.co-ode.org/ontologies/galen#InterosseusMuscleOfHand|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#StriatedMuscle|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#isSpecificallyMadeOf|
+                        |http://www.co-ode.org/ontologies/galen#StripedMuscleTissue|)
+                  |http://www.co-ode.org/ontologies/galen#Muscle|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#NAMEDStriatedMuscle|
+          (SOME |http://www.co-ode.org/ontologies/galen#isSpecificallyMadeOf|
+                |http://www.co-ode.org/ontologies/galen#StripedMuscleTissue|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#NAMEDStriatedMuscle|
+          |http://www.co-ode.org/ontologies/galen#NAMEDMuscle|)
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#FirstDorsalInterosseusMuscleOfHand|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#isSpecificStructuralComponentOf|
+                        |http://www.co-ode.org/ontologies/galen#FirstWebSpaceOfHand|)
+                  |http://www.co-ode.org/ontologies/galen#DorsalInterosseusMuscleOfHand|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#NAMEDMuscle|
+          |http://www.co-ode.org/ontologies/galen#Muscle|)
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#InterosseusMuscleOfHand|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#isSpecificStructuralComponentOf|
+                        |http://www.co-ode.org/ontologies/galen#WebSpaceOfHand|)
+                  |http://www.co-ode.org/ontologies/galen#InterosseusMuscle|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#InterosseusMuscle|
+          |http://www.co-ode.org/ontologies/galen#NAMEDStriatedMuscle|))
+CEL(5): CEL(5): EOF
+Really exit lisp [n]? 

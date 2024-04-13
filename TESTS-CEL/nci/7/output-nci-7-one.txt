@@ -1,0 +1,50 @@
+International Allegro CL Enterprise Edition
+8.1 [Linux (x86)] (Jul 8, 2009 19:27)
+Copyright (C) 1985-2007, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This standard runtime copy of Allegro CL was built by:
+   [TC10941] TU Dresden - Fakultaet Informatik
+
+
+   * * * * * * * * * * *  CEL Version 1.1.2  * * * * * * * * * * * *
+   *                                                               *
+   *  CEL: [C]lassifier for the Description Logic [E][L]+          *
+   *  Supported description logic: EL+  (el+)                      *
+   *  Copyright (C) 2005-2009: B. Suntisrivaraporn and TU Dresden. *
+   *  CEL comes with ABSOLUTELY NO WARRANTY; use at your own risk. *
+   *  This is free software for research and evaluation purposes.  *
+   *  Commercial use is prohibited; please contact the author.     *
+   *                                                               *
+   *  Try (help) to see what CEL can do!                           *
+   *                                                               *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+CEL(1): Ontology[uri="urn:cel-ontology:default"; state=PREPARED]
+CEL(2): T
+CEL(3): #####################################################################################################
+Ontology[uri="urn:cel-ontology:default"; state=CLASSIFIED]
+CEL(4): 
+;; Preparing for module extraction...Done!
+((IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_T-Lymphocytes|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_Lymphocytes|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_EBV-specific_Cytotoxic_T-lymphocytes|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_T-Lymphocytes_Cytotoxic|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_CD8-Positive_T-Lymphocytes|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_T-Lymphocytes|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_Anatomical_Concepts|
+          |http://www.mindswap.org/2003/nciOncology.owl#Experimental_Organism_Anatomical_Concepts|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_Organ_System|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_Gross_Anatomy_Concepts|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Experimental_Organism_Anatomical_Concepts|
+          |http://www.mindswap.org/2003/nciOncology.owl#EO_Anatomy_Kind|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_Leukocytes_Mononuclear|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_Leukocytes|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_Lymphocytes|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_Leukocytes_Mononuclear|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_Immune_System|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_Organ_System|)
+ (IMPLIES |http://www.mindswap.org/2003/nciOncology.owl#Murine_Leukocytes|
+          |http://www.mindswap.org/2003/nciOncology.owl#Murine_Immune_System|)
+ ...)
+CEL(5): EOF
+Really exit lisp [n]? 

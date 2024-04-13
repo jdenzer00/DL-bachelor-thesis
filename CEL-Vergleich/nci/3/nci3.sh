@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt
+../../../../sofronie/DL/cel/cel < input-nci-3-one.test > output-nci-3-one.txt

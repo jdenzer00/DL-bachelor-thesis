@@ -1,0 +1,320 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.57 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.99 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.19 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:51.96 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.71 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.18 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.57 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.61 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.04 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.19 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:51.90 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.67 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.18 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.57 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.66 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.07 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.19 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.04 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.79 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.18 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.57 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.57 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.03 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.19 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.70 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.02 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.76 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.18 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.58 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:52.64 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.09 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.19 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci6.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6688 clauses.
+SPASS allocated 142851 KBytes.
+SPASS spent	0:00:51.98 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.73 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.18 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.57 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> T_2_8_(skc1)*.
+2[0:Inp] || FINDING(skc1)* -> .
+3064[0:Inp] CHROMOSOMAL_TRANSLOCATION(U) ||  -> STRUCTURAL_CHROMOSOME_ABERRATION(U)*.
+3066[0:Inp] CMYC_TRANSLOCATION(U) ||  -> CHROMOSOMAL_TRANSLOCATION(U)*.
+3067[0:Inp] CHROMOSOMAL_ABERRATION(U) ||  -> GENETIC_ABNORMALITY(U)*.
+3068[0:Inp] T_2_8_(U) ||  -> CMYC_TRANSLOCATION(U)*.
+3069[0:Inp] LABORATORY_FINDING(U) ||  -> FINDING(U)*.
+3070[0:Inp] GENETIC_ABNORMALITY(U) ||  -> LABORATORY_FINDING(U)*.
+3367[0:Inp] STRUCTURAL_CHROMOSOME_ABERRATION(U) ||  -> CHROMOSOMAL_ABERRATION(U)*.
+6824[0:Res:1.0,3068.0] ||  -> CMYC_TRANSLOCATION(skc1)*.
+6825[0:Res:3069.1,2.0] LABORATORY_FINDING(skc1) ||  -> .
+12012[0:SoR:6825.0,3070.1] GENETIC_ABNORMALITY(skc1) ||  -> .
+12013[0:SSi:12012.0,3066.0,3064.0,3367.1,3067.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1187 A1185 A1184 A1183 A1182 A1181 A670
+

@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt
+../../../../sofronie/DL/cel/cel < input-galen-8-all.test > output-galen-8-all.txt

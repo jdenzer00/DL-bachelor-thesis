@@ -1,0 +1,166 @@
+CEL tests
+
+NCI:
+
+prep-time: user 11.681s sys 0.224s avg 1,1905s
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#EphA4_Protein| |http://www.mindswap.org/2003/nciOncology.owl#Protein_Kind|)
+user 13.832s sys 0.252s avg 1,4084s
+all minas: user 15.054s sys 0.274s avg 1,5328s
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Protein_Tyrosine_Phosphatase_Non-Receptor_Type_7| |http://www.mindswap.org/2003/nciOncology.owl#Protein_Kind|)
+user 13.707s sys 0.247s avg 1,3954s
+all minas: user 13.992s sys 0.238s avg 1,4230s
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Passive_Smoke_Exposure| |http://www.mindswap.org/2003/nciOncology.owl#Properties_or_Attributes_Kind|) 
+user 13.161s sys 0.240s avg 1,3401s
+all minas: user 13.315s sys 0.242s avg 1,3557s
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Neurologic| |http://www.mindswap.org/2003/nciOncology.owl#Properties_or_Attributes_Kind|) 
+user 13.150s sys 0.231s avg 1,3381
+all minas: user 13.182s sys 0.229s avg 1,3411
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Abducent_Nerve_Paralysis| |http://www.mindswap.org/2003/nciOncology.owl#Finding|) 
+user 13.324s sys 0.239s avg 1,3563
+all minas: user 13.433s sys 0.225s avg 1,3658
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#t_2_8_| |http://www.mindswap.org/2003/nciOncology.owl#Finding|) 
+user 13.203s sys 0.254s avg 1,3457
+all minas: user 13.285s sys 0.247s avg 1,3532
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Murine_EBV-specific_Cytotoxic_T-lymphocytes| |http://www.mindswap.org/2003/nciOncology.owl#EO_Anatomy_Kind|) 
+user 13.454s sys 0.230s avg 1,3684
+all minas: user 15.707s sys 0.264s avg 1,5971
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Low_Grade_Sessile_Villous_Dysplasia_of_the_Murine_Intestinal_Tract| |http://www.mindswap.org/2003/nciOncology.owl#EO_Findings_and_Disorders_Kind|) 
+user 13.914s sys 0.228s avg 1,4142
+all minas: user 21.239s sys 0.277s avg 2,1516
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#SAMR4_Mouse| |http://www.mindswap.org/2003/nciOncology.owl#Organism_Kind|) 
+user 13.368s sys 0.244s avg 1,3612
+all minas: user 13.576s sys 0.305s avg 1,3881
+
+
+(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Vacuolar_Protein_Sorting| |http://www.mindswap.org/2003/nciOncology.owl#Biological_Process_Kind|) 
+user 13.615s sys 0.216s avg 1,3831
+all minas: user 13.646s sys 0.244s avg 1,3890
+
+
+
+GO: 
+
+prep-time: user 0.063s sys 0.027s avg 0,009s
+
+(extract-mina GO_0019743 GO_0006629)
+user 5.394s sys 0.106s avg 0.55
+all minas: user 7.905s sys 0.096s avg 0,8001
+
+
+(extract-mina GO_0016120 GO_0006720)
+user 5.334s sys 0.089s avg 0,5423
+all minas: user 6.621s sys 0.106s avg 0,6727
+
+
+(extract-mina GO_0018008 GO_0019538)
+user 5.226s sys 0.103s avg 0,5329
+all minas: user 6.475s sys 0.091s avg 0,6566
+
+
+(extract-mina GO_0031145 GO_0019538)
+user 5.283s sys 0.112s avg 0,5395
+all minas: user 5.894s sys 0.113s avg 0,6007
+
+
+(extract-mina GO_0046081 GO_0009147)
+user 5.206s sys 0.114s avg 0,5320
+all minas: user 5.567s sys 0.103s avg 0,5670
+
+
+(extract-mina GO_0019939 GO_0044267)
+user 5.281s sys 0.122s avg 0,5403
+all minas: user 6.158s sys 0.100s avg 0,6258
+
+
+(extract-mina GO_0019743 GO_0044255)
+user 5.312s sys 0.099s avg 0,5411
+all minas: user 7.469s sys 0.096s avg 0,7565
+
+
+(extract-mina GO_0004918 GO_0003674)
+user 5.345s sys 0.104s avg 0,5449
+all minas: user 11.500s sys 0.114s avg 1,1614
+
+
+(extract-mina GO_0015598 GO_0003674)
+user 5.310s sys 0.100s avg 0,5410
+all minas: user 7.986s sys 0.114s avg 0,8100
+
+
+(extract-mina GO_0051574 GO_0008150)
+user 5.376s sys 0.089s avg 0,5465
+all minas: user 9.433s sys 0.100s avg 0,9533
+
+
+
+
+Galen:
+
+prep-time: user 7m4.5200s sys 0.270s avg 42,479s
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#hemisphere| |http://www.co-ode.org/ontologies/galen#StateOrQuantity|) 
+user 7m6.828s sys 0m0.272s avg 42,7100s
+all minas: user 7m32.769s sys 0.292s avg 45,3061
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#XLinkedDominantGeneInherited| |http://www.co.ode.org/ontologies/galen#StateOrQuantity|)
+user 7m7.759s sys 0.256s avg 42,8015
+all minas: user 7m6.839s sys 0.263s avg 42,7102
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#FirstDorsalInterosseusMuscleOfHand| |http://www.co.ode.org/ontologies/galen#StriatedMuscle|)
+user 10m40.077s sys 0.324s avg 64,0333
+all minas: user 17m21.514s sys 0.352s avg 104,1866
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#ThirdPlantarInterosseusMuscleOfFoot| |http://www.co.ode.org/ontologies/galen#StriatedMuscle|)
+user 8m23.755s sys 0.315s avg 50,407
+all minas: user 15m5.020s sys 0.336s avg 90,5356
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#DigitalNerveSupplyingDorsalAspectOfRadialBorderOfThumb| |http://www.co.ode.org/ontologies/galen#Nerve|)
+user 7m19.403s sys 0.296s avg 43,9699
+all minas: user 9m52.520s sys 0.324s avg 59,2844
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#BodyMassIndex| |http://www.co.ode.org/ontologies/galen#Quantity|)
+user 7m21.655s sys 0.289s avg 44,1944
+all minas: user 10m2.820s sys 0.325s avg 60,3145
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#InfantUnderThreeMonths| |http://www.co-ode.org/ontologies/galen#TopCategory|)
+user 7m8.545s sys 0.297s avg 42,8842
+all minas: user 7m15.992s sys 0.300s avg 43,6292
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#Wolverine| |http://www.co-ode.org/ontologies/galen#Phenomenon|)
+user 7m7.660s sys 0.257s avg 42,7917
+all minas: user 7m11.526s sys 0.263 avg 43,1789
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#MalePatient| |http://www.co-ode.org/ontologies/galen#SubstanceOrPhysicalStructure|)
+user 7m7.989s sys 0.257s avg 42,8246
+all minas: user 7m9.992s sys 0.262s avg 43,0254
+
+
+(extract-mina |http://www.co-ode.org/ontologies/galen#Horse| |http://www.co-ode.org/ontologies/galen#DiscreteStructure|)
+user 7m9.076s sys 0.282s avg 42,9358
+all minas: user 7m9.792s sys 0.257s avg 43,0049
+

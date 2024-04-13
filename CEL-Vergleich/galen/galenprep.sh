@@ -1,0 +1,10 @@
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt
+../../../sofronie/DL/cel/cel < input-galen-prep.test > output-galen-prep.txt

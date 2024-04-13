@@ -1,0 +1,380 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.68 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.99 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.24 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.22 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.80 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.23 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.60 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.74 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.03 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.24 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.70 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.00 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.23 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.10 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.72 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.23 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.76 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.09 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.23 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.15 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.74 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.23 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:53.03 on the problem.
+		0:00:00.06 for the input.
+		0:00:15.30 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.24 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:52.70 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.04 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.24 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci1.dfg 
+SPASS derived 8 clauses, backtracked 0 clauses, performed 0 splits and kept 6689 clauses.
+SPASS allocated 142776 KBytes.
+SPASS spent	0:00:53.14 on the problem.
+		0:00:00.06 for the input.
+		0:00:15.38 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.24 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 4, length 19 :
+1[0:Inp] ||  -> EPHA4_PROTEIN(skc1)*.
+2[0:Inp] || PROTEIN_KIND(skc1)* -> .
+3229[0:Inp] PROTEIN_KINASE(U) ||  -> PHOSPHOTRANSFERASE(U)*.
+3230[0:Inp] TRANSFERASE(U) ||  -> ENZYME(U)*.
+3231[0:Inp] RECEPTOR_TYROSINE_KINASE(U) ||  -> PROTEIN_TYROSINE_KINASE(U)*.
+3234[0:Inp] PROTEIN_TYROSINE_KINASE(U) ||  -> PROTEIN_KINASE(U)*.
+3236[0:Inp] PHOSPHOTRANSFERASE(U) ||  -> TRANSFERASE(U)*.
+3238[0:Inp] ENZYME(U) ||  -> PROTEIN_ORGANIZED_BY_FUNCTION(U)*.
+3240[0:Inp] EPHRIN_RECEPTOR(U) ||  -> RECEPTOR_TYROSINE_KINASE(U)*.
+3241[0:Inp] GENE_PRODUCT(U) ||  -> PROTEIN_KIND(U)*.
+3242[0:Inp] PROTEIN(U) ||  -> GENE_PRODUCT(U)*.
+3243[0:Inp] PROTEIN_ORGANIZED_BY_FUNCTION(U) ||  -> PROTEIN(U)*.
+3419[0:Inp] EPHA4_PROTEIN(U) ||  -> EPHRIN_RECEPTOR(U)*.
+6824[0:Res:1.0,3419.0] ||  -> EPHRIN_RECEPTOR(skc1)*.
+6825[0:Res:3241.1,2.0] GENE_PRODUCT(skc1) ||  -> .
+12008[0:SoR:6825.0,3242.1] PROTEIN(skc1) ||  -> .
+12010[0:SoR:12008.0,3243.1] PROTEIN_ORGANIZED_BY_FUNCTION(skc1) ||  -> .
+12012[0:SoR:12010.0,3238.1] ENZYME(skc1) ||  -> .
+12013[0:SSi:12012.0,3240.0,3231.0,3234.1,3229.1,3236.1,3230.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A827 A826 A825 A822 A820 A818 A816 A815 A814 A813 A625
+

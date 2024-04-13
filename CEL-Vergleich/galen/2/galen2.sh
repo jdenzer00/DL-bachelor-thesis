@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt
+../../../../sofronie/DL/cel/cel < input-galen-2-one.test > output-galen-2-one.txt

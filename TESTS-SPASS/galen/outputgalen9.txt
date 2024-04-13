@@ -1,0 +1,440 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:52.58 on the problem.
+		0:00:00.05 for the input.
+		0:03:21.23 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.10 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.24 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:24.50 on the problem.
+		0:00:00.05 for the input.
+		0:03:08.46 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.07 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.06 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:52.88 on the problem.
+		0:00:00.05 for the input.
+		0:03:20.96 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.35 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:54.04 on the problem.
+		0:00:00.05 for the input.
+		0:03:22.08 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.36 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:53.89 on the problem.
+		0:00:00.05 for the input.
+		0:03:21.92 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.34 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:24.64 on the problem.
+		0:00:00.05 for the input.
+		0:03:08.57 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.07 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.04 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:53.82 on the problem.
+		0:00:00.05 for the input.
+		0:03:21.88 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.33 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:52.42 on the problem.
+		0:00:00.05 for the input.
+		0:03:20.63 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.25 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:53.18 on the problem.
+		0:00:00.05 for the input.
+		0:03:21.28 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.12 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.27 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen9.dfg 
+SPASS derived 13 clauses, backtracked 0 clauses, performed 0 splits and kept 12004 clauses.
+SPASS allocated 320524 KBytes.
+SPASS spent	0:05:24.94 on the problem.
+		0:00:00.05 for the input.
+		0:03:08.84 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.07 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.09 for the reduction.
+
+
+Here is a proof with depth 2, length 25 :
+1[0:Inp] ||  -> MALEPATIENT(skc1)*.
+2[0:Inp] || SUBSTANCEORPHYSICALSTRUCTURE(skc1)* -> .
+172[0:Inp] MALEPATIENT(U) ||  -> HUMAN(U)*.
+1642[0:Inp] SOLIDSTRUCTURE(U) ||  -> PHYSICALSTRUCTURE(U)*.
+1643[0:Inp] PRIMATE(U) ||  -> EUTHERIA(U)*.
+1725[0:Inp] NONARTHROPOD(U) ||  -> METAZOA(U)*.
+1726[0:Inp] OPISTHOKONTS(U) ||  -> MULTICELLULAREUKARYOTA(U)*.
+1727[0:Inp] HOMINIDAE(U) ||  -> ANTHROPOID(U)*.
+1728[0:Inp] MAMMAL(U) ||  -> VERTEBRATE(U)*.
+1729[0:Inp] EUTHERIA(U) ||  -> MAMMAL(U)*.
+1731[0:Inp] VERTEBRATE(U) ||  -> CHORDATA(U)*.
+1732[0:Inp] METAZOA(U) ||  -> ANIMAL(U)*.
+1733[0:Inp] ANIMAL(U) ||  -> OPISTHOKONTS(U)*.
+1734[0:Inp] ANTHROPOID(U) ||  -> PRIMATE(U)*.
+1735[0:Inp] EUKARYOTA(U) ||  -> ORGANISM(U)*.
+1736[0:Inp] PHYSICALSTRUCTURE(U) ||  -> SUBSTANCEORPHYSICALSTRUCTURE(U)*.
+1803[0:Inp] MULTICELLULAREUKARYOTA(U) ||  -> EUKARYOTA(U)*.
+1805[0:Inp] ORGANICSOLIDSTRUCTURE(U) ||  -> SOLIDSTRUCTURE(U)*.
+1806[0:Inp] HUMAN(U) ||  -> HOMINIDAE(U)*.
+1808[0:Inp] ORGANISM(U) ||  -> ORGANICSOLIDSTRUCTURE(U)*.
+3224[0:Inp] CHORDATA(U) ||  -> NONARTHROPOD(U)*.
+12272[0:Res:1.0,172.0] ||  -> HUMAN(skc1)*.
+12273[0:Res:1736.1,2.0] PHYSICALSTRUCTURE(skc1) ||  -> .
+20407[0:SoR:12273.0,1642.1] SOLIDSTRUCTURE(skc1) ||  -> .
+20408[0:SSi:20407.0,1806.0,1727.0,1734.1,1643.1,1729.1,1728.1,1731.1,3224.1,1725.1,1732.1,1733.1,1726.1,1803.1,1735.1,1808.1,1805.1,1.1,12272.1] ||  -> .
+Formulae used in the proof : C A4645 A4801 A2398 A2397 A2293 A2292 A2291 A2290 A2289 A2287 A2286 A2285 A2284 A2283 A2282 A2194 A2192 A2191 A2189 A46
+

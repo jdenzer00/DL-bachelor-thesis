@@ -1,0 +1,157 @@
+NCI: 
+
+Test1:
+user    8m52.794s
+sys     0m0.347s
+avg 	53,3141s
+
+Test2:
+user    8m44.893s
+sys     0m0.354s
+avg	52,5247s
+
+Test3:
+user    8m51.512s
+sys     0m0.339s
+avg	53,1851s
+
+Test4:
+user    8m54.096s
+sys     0m0.339s
+avg	53,4435s
+
+Test5:
+user    8m49.900s
+sys     0m0.321s
+avg 	53,0221s
+
+Test6:
+user    8m49.617s
+sys     0m0.322s
+avg	52,9939s
+
+Test7:
+user    8m52.833s
+sys     0m0.346s 
+avg 	53,3179s
+
+Test8:
+user    8m47.620s
+sys     0m0.348s
+avg 	52,7968s
+
+Test9:
+user    8m49.861s
+sys     0m0.331s
+avg	53,0192s
+
+Test10:
+user    8m53.636s
+sys     0m0.359s
+avg	53,3995s
+
+
+Galen:
+
+Test1:
+user    52m23.011s
+sys     0m1.013s
+avg 	314,4024s
+
+Test2:
+user    53m57.164s
+sys     0m0.939s
+avg 	323,8103s
+
+Test3:
+user    61m21.730s
+sys     0m0.991s
+avg	368,2721s
+
+Test4:
+user    60m55.028s
+sys     0m0.977s
+avg	365,6028s
+
+Test5:
+user    51m15.410s
+sys     0m0.908s
+avg	307,6318s
+
+Test6:
+user    51m14.592s
+sys     0m0.924s
+avg	307,5516s
+
+Test7:
+user    57m34.377s
+sys     0m0.987s
+avg	345,5364s
+
+Test8:
+user    52m46.065s
+sys     0m0.998s
+avg	316,7063s
+
+Test9:
+user    58m8.887s
+sys     0m0.980s
+avg	348,9867s
+
+Test10:
+user    58m5.697s
+sys     0m0.934s
+avg	348,6631s
+
+GO:
+
+Test1:
+user    27m50.288s
+sys     0m0.737s
+avg 	167,1025s
+
+
+Test2:
+user    27m51.201s
+sys     0m0.689s
+avg 	167,189s
+
+Test3:
+user    27m56.845s
+sys     0m0.692s
+avg 	167,7537s
+
+Test4:
+user    27m48.073s
+sys     0m0.733s
+avg 	166,8806s
+
+Test5:
+user    27m47.761s
+sys     0m0.712s
+avg 	166,8473s
+
+Test6:
+user    27m58.262s
+sys     0m0.702s
+avg	167,8964s
+
+Test7:
+user    28m1.766s
+sys     0m0.719s
+avg	168,2485s
+
+Test8:
+user    28m6.198s
+sys     0m0.719s
+avg	168,6917s
+
+Test9:
+user    28m0.261s
+sys     0m0.689s
+avg	168,095s
+
+Test10:
+user    27m58.377s
+sys     0m0.760s
+avg	167,9137s

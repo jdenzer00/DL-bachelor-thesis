@@ -1,0 +1,10 @@
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt
+../../../../sofronie/DL/cel/cel < input-go-2-all.test > output-go-2-all.txt

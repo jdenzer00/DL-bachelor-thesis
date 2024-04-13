@@ -1,0 +1,5 @@
+(load-ontology "../../../../sofronie/DL/ONTOLOGIES/galentestmodule.cel")
+(ontology-prepared?)
+(classify-ontology)
+(extract-mina |http://www.co-ode.org/ontologies/galen#FirstDorsalInterosseusMuscleOfHand| |http://www.co-ode.org/ontologies/galen#StriatedMuscle|)  
+

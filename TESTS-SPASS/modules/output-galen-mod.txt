@@ -1,0 +1,282 @@
+International Allegro CL Enterprise Edition
+8.1 [Linux (x86)] (Jul 8, 2009 19:27)
+Copyright (C) 1985-2007, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This standard runtime copy of Allegro CL was built by:
+   [TC10941] TU Dresden - Fakultaet Informatik
+
+
+   * * * * * * * * * * *  CEL Version 1.1.2  * * * * * * * * * * * *
+   *                                                               *
+   *  CEL: [C]lassifier for the Description Logic [E][L]+          *
+   *  Supported description logic: EL+  (el+)                      *
+   *  Copyright (C) 2005-2009: B. Suntisrivaraporn and TU Dresden. *
+   *  CEL comes with ABSOLUTELY NO WARRANTY; use at your own risk. *
+   *  This is free software for research and evaluation purposes.  *
+   *  Commercial use is prohibited; please contact the author.     *
+   *                                                               *
+   *  Try (help) to see what CEL can do!                           *
+   *                                                               *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+CEL(1): Ontology[uri="urn:cel-ontology:default"; state=PREPARED]
+CEL(2): T
+CEL(3): #####################################################################################################
+Ontology[uri="urn:cel-ontology:default"; state=CLASSIFIED]
+CEL(4): 
+;; Preparing for module extraction...Done!
+((IMPLIES |http://www.co-ode.org/ontologies/galen#ModifierConcept|
+          |http://www.co-ode.org/ontologies/galen#DomainCategory|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#State|
+          |http://www.co-ode.org/ontologies/galen#SymbolicValueType|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AbsoluteShapeState|
+          |http://www.co-ode.org/ontologies/galen#ShapeState|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#StructuralState|
+          |http://www.co-ode.org/ontologies/galen#State|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Aspect|
+          |http://www.co-ode.org/ontologies/galen#ModifierConcept|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#State|
+          |http://www.co-ode.org/ontologies/galen#StateOrQuantity|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#solidShape|
+          |http://www.co-ode.org/ontologies/galen#AbsoluteShapeState|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#StateOrQuantity|
+          |http://www.co-ode.org/ontologies/galen#Phenomenon|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#dome|
+          |http://www.co-ode.org/ontologies/galen#sectionOfSphere|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#hemisphere|
+          |http://www.co-ode.org/ontologies/galen#dome|)
+ ...)
+CEL(5): ((IMPLIES |http://www.co-ode.org/ontologies/galen#ModifierConcept|
+          |http://www.co-ode.org/ontologies/galen#DomainCategory|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#State|
+          |http://www.co-ode.org/ontologies/galen#SymbolicValueType|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#congenital|
+          |http://www.co-ode.org/ontologies/galen#primaryAcquisitionState|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AcquisitionModeState|
+          |http://www.co-ode.org/ontologies/galen#DiseaseState|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Aspect|
+          |http://www.co-ode.org/ontologies/galen#ModifierConcept|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#State|
+          |http://www.co-ode.org/ontologies/galen#StateOrQuantity|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#geneticallyInherited|
+          |http://www.co-ode.org/ontologies/galen#geneticallyDetermined|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#StateOrQuantity|
+          |http://www.co-ode.org/ontologies/galen#Phenomenon|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#XLinkedDominantGeneInherited|
+          |http://www.co-ode.org/ontologies/galen#dominantGeneInherited|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#primaryAcquisitionState|
+          |http://www.co-ode.org/ontologies/galen#AcquisitionModeState|)
+ ...)
+CEL(6): ((IMPLIES |http://www.co-ode.org/ontologies/galen#Angiotensin|
+          |http://www.co-ode.org/ontologies/galen#Peptide|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#PlantarRegionOfFoot|
+          (SOME |http://www.co-ode.org/ontologies/galen#hasStructuralComponent|
+                |http://www.co-ode.org/ontologies/galen#FlexorHallucisBrevis|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AnteriorInferiorPancreaticoduodenalArtery|
+          (SOME |http://www.co-ode.org/ontologies/galen#serves|
+                |http://www.co-ode.org/ontologies/galen#Pancreas|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#InguinalRegion|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTrunkBodyPart|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#MiddleCranialFossa|
+          (SOME |http://www.co-ode.org/ontologies/galen#nonPartitivelyContains|
+                |http://www.co-ode.org/ontologies/galen#OculomotorNerve|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Duodenum|
+          (SOME |http://www.co-ode.org/ontologies/galen#isLinearDivisionOf|
+                |http://www.co-ode.org/ontologies/galen#SmallIntestine|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#RingFinger|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#hasOrdinalPosition|
+                        |http://www.co-ode.org/ontologies/galen#fourth|)
+                  |http://www.co-ode.org/ontologies/galen#Finger|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#FemaleGenitalTractComponent|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#IsDivisionOf|
+                        |http://www.co-ode.org/ontologies/galen#FemaleGenitoUrinarySystem|)
+                  |http://www.co-ode.org/ontologies/galen#BodyStructure|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#SuprarenalVein|
+          (SOME |http://www.co-ode.org/ontologies/galen#isPairedOrUnpaired|
+                |http://www.co-ode.org/ontologies/galen#mirrorImaged|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#TendonOfFlexorHallucisLongus|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTendon|)
+ ...)
+CEL(7): ((IMPLIES |http://www.co-ode.org/ontologies/galen#Angiotensin|
+          |http://www.co-ode.org/ontologies/galen#Peptide|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#PlantarRegionOfFoot|
+          (SOME |http://www.co-ode.org/ontologies/galen#hasStructuralComponent|
+                |http://www.co-ode.org/ontologies/galen#FlexorHallucisBrevis|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AnteriorInferiorPancreaticoduodenalArtery|
+          (SOME |http://www.co-ode.org/ontologies/galen#serves|
+                |http://www.co-ode.org/ontologies/galen#Pancreas|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#InguinalRegion|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTrunkBodyPart|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#MiddleCranialFossa|
+          (SOME |http://www.co-ode.org/ontologies/galen#nonPartitivelyContains|
+                |http://www.co-ode.org/ontologies/galen#OculomotorNerve|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Duodenum|
+          (SOME |http://www.co-ode.org/ontologies/galen#isLinearDivisionOf|
+                |http://www.co-ode.org/ontologies/galen#SmallIntestine|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#RingFinger|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#hasOrdinalPosition|
+                        |http://www.co-ode.org/ontologies/galen#fourth|)
+                  |http://www.co-ode.org/ontologies/galen#Finger|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#FemaleGenitalTractComponent|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#IsDivisionOf|
+                        |http://www.co-ode.org/ontologies/galen#FemaleGenitoUrinarySystem|)
+                  |http://www.co-ode.org/ontologies/galen#BodyStructure|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#SuprarenalVein|
+          (SOME |http://www.co-ode.org/ontologies/galen#isPairedOrUnpaired|
+                |http://www.co-ode.org/ontologies/galen#mirrorImaged|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#TendonOfFlexorHallucisLongus|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTendon|)
+ ...)
+CEL(8): ((IMPLIES |http://www.co-ode.org/ontologies/galen#Angiotensin|
+          |http://www.co-ode.org/ontologies/galen#Peptide|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#PlantarRegionOfFoot|
+          (SOME |http://www.co-ode.org/ontologies/galen#hasStructuralComponent|
+                |http://www.co-ode.org/ontologies/galen#FlexorHallucisBrevis|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AnteriorInferiorPancreaticoduodenalArtery|
+          (SOME |http://www.co-ode.org/ontologies/galen#serves|
+                |http://www.co-ode.org/ontologies/galen#Pancreas|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#InguinalRegion|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTrunkBodyPart|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#MiddleCranialFossa|
+          (SOME |http://www.co-ode.org/ontologies/galen#nonPartitivelyContains|
+                |http://www.co-ode.org/ontologies/galen#OculomotorNerve|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Duodenum|
+          (SOME |http://www.co-ode.org/ontologies/galen#isLinearDivisionOf|
+                |http://www.co-ode.org/ontologies/galen#SmallIntestine|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#RingFinger|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#hasOrdinalPosition|
+                        |http://www.co-ode.org/ontologies/galen#fourth|)
+                  |http://www.co-ode.org/ontologies/galen#Finger|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#FemaleGenitalTractComponent|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#IsDivisionOf|
+                        |http://www.co-ode.org/ontologies/galen#FemaleGenitoUrinarySystem|)
+                  |http://www.co-ode.org/ontologies/galen#BodyStructure|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#SuprarenalVein|
+          (SOME |http://www.co-ode.org/ontologies/galen#isPairedOrUnpaired|
+                |http://www.co-ode.org/ontologies/galen#mirrorImaged|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#TendonOfFlexorHallucisLongus|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTendon|)
+ ...)
+CEL(9): ((IMPLIES |http://www.co-ode.org/ontologies/galen#Angiotensin|
+          |http://www.co-ode.org/ontologies/galen#Peptide|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#PlantarRegionOfFoot|
+          (SOME |http://www.co-ode.org/ontologies/galen#hasStructuralComponent|
+                |http://www.co-ode.org/ontologies/galen#FlexorHallucisBrevis|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AnteriorInferiorPancreaticoduodenalArtery|
+          (SOME |http://www.co-ode.org/ontologies/galen#serves|
+                |http://www.co-ode.org/ontologies/galen#Pancreas|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#InguinalRegion|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTrunkBodyPart|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#MiddleCranialFossa|
+          (SOME |http://www.co-ode.org/ontologies/galen#nonPartitivelyContains|
+                |http://www.co-ode.org/ontologies/galen#OculomotorNerve|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Duodenum|
+          (SOME |http://www.co-ode.org/ontologies/galen#isLinearDivisionOf|
+                |http://www.co-ode.org/ontologies/galen#SmallIntestine|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#RingFinger|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#hasOrdinalPosition|
+                        |http://www.co-ode.org/ontologies/galen#fourth|)
+                  |http://www.co-ode.org/ontologies/galen#Finger|))
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#FemaleGenitalTractComponent|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#IsDivisionOf|
+                        |http://www.co-ode.org/ontologies/galen#FemaleGenitoUrinarySystem|)
+                  |http://www.co-ode.org/ontologies/galen#BodyStructure|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#SuprarenalVein|
+          (SOME |http://www.co-ode.org/ontologies/galen#isPairedOrUnpaired|
+                |http://www.co-ode.org/ontologies/galen#mirrorImaged|))
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#TendonOfFlexorHallucisLongus|
+          |http://www.co-ode.org/ontologies/galen#NAMEDTendon|)
+ ...)
+CEL(10): ((ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseFunctionalAttribute|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Age|
+          |http://www.co-ode.org/ontologies/galen#OrganismFeature|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasAbsoluteState|
+                 |http://www.co-ode.org/ontologies/galen#hasState|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Hominidae|
+          |http://www.co-ode.org/ontologies/galen#Anthropoid|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#MultiCellularEukaryota|
+          |http://www.co-ode.org/ontologies/galen#Eukaryota|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Aspect|
+          |http://www.co-ode.org/ontologies/galen#ModifierConcept|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#NAMEDPhysiologicalProcess|
+          |http://www.co-ode.org/ontologies/galen#BodyProcess|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#ModifierConcept|
+          |http://www.co-ode.org/ontologies/galen#DomainCategory|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#FirstTwoYearsOfLife|
+          |http://www.co-ode.org/ontologies/galen#FirstThreeYearsOfLife|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseProcessLocativeAttribute|)
+ ...)
+CEL(11): ((ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseFunctionalAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#isFunctionOf|
+                 |http://www.co-ode.org/ontologies/galen#FunctionalAttribute|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Fissipedia|
+          |http://www.co-ode.org/ontologies/galen#Carnivora|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#InverseFunctionalAttribute|
+                 |http://www.co-ode.org/ontologies/galen#InverseConstructiveAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasSpecificFunction|
+                 |http://www.co-ode.org/ontologies/galen#hasFunction|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AbstractStatus|
+          |http://www.co-ode.org/ontologies/galen#Status|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseProcessLocativeAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#InverseConstructiveAttribute|
+                 |http://www.co-ode.org/ontologies/galen#InverseDomainAttribute|)
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#ReproductiveSystemPhenomenon|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#LocativeAttribute|
+                        |http://www.co-ode.org/ontologies/galen#ReproductiveSystem|)
+                  |http://www.co-ode.org/ontologies/galen#Phenomenon|))
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#isFunctionOf|
+                 |http://www.co-ode.org/ontologies/galen#ProcessLocativeAttribute|)
+ ...)
+CEL(12): ((ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#RoleDesignatingAttribute|
+                 |http://www.co-ode.org/ontologies/galen#ModifierAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseFunctionalAttribute|)
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#MalePhenotypePerson|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#hasPhenotypicalSex|
+                        (AND #
+                             |http://www.co-ode.org/ontologies/galen#PhenotypicalSex|))
+                  |http://www.co-ode.org/ontologies/galen#Human|))
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasAbsoluteState|
+                 |http://www.co-ode.org/ontologies/galen#hasState|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Hominidae|
+          |http://www.co-ode.org/ontologies/galen#Anthropoid|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#MultiCellularEukaryota|
+          |http://www.co-ode.org/ontologies/galen#Eukaryota|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Aspect|
+          |http://www.co-ode.org/ontologies/galen#ModifierConcept|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#NAMEDPhysiologicalProcess|
+          |http://www.co-ode.org/ontologies/galen#BodyProcess|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#ModifierConcept|
+          |http://www.co-ode.org/ontologies/galen#DomainCategory|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseProcessLocativeAttribute|)
+ ...)
+CEL(13): ((ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseFunctionalAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#isFunctionOf|
+                 |http://www.co-ode.org/ontologies/galen#FunctionalAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#InverseFunctionalAttribute|
+                 |http://www.co-ode.org/ontologies/galen#InverseConstructiveAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasSpecificFunction|
+                 |http://www.co-ode.org/ontologies/galen#hasFunction|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#AbstractStatus|
+          |http://www.co-ode.org/ontologies/galen#Status|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#hasFunction|
+                 |http://www.co-ode.org/ontologies/galen#InverseProcessLocativeAttribute|)
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#InverseConstructiveAttribute|
+                 |http://www.co-ode.org/ontologies/galen#InverseDomainAttribute|)
+ (EQUIVALENT |http://www.co-ode.org/ontologies/galen#ReproductiveSystemPhenomenon|
+             (AND (SOME |http://www.co-ode.org/ontologies/galen#LocativeAttribute|
+                        |http://www.co-ode.org/ontologies/galen#ReproductiveSystem|)
+                  |http://www.co-ode.org/ontologies/galen#Phenomenon|))
+ (ROLE-INCLUSION |http://www.co-ode.org/ontologies/galen#isFunctionOf|
+                 |http://www.co-ode.org/ontologies/galen#ProcessLocativeAttribute|)
+ (IMPLIES |http://www.co-ode.org/ontologies/galen#Equus|
+          |http://www.co-ode.org/ontologies/galen#Equidae|)
+ ...)
+CEL(14): CEL(14): EOF
+Really exit lisp [n]? 

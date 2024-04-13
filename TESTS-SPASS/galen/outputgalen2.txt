@@ -1,0 +1,400 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:25.82 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.56 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.91 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:16.96 on the problem.
+		0:00:00.05 for the input.
+		0:03:09.20 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.14 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.45 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:01.57 on the problem.
+		0:00:00.05 for the input.
+		0:03:03.07 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.13 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.71 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:26.25 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.99 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.92 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:19.68 on the problem.
+		0:00:00.05 for the input.
+		0:03:09.36 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.45 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:26.08 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.74 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.92 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:04.75 on the problem.
+		0:00:00.05 for the input.
+		0:03:05.76 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.13 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:11.89 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:19.89 on the problem.
+		0:00:00.05 for the input.
+		0:03:09.50 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.46 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:26.22 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.88 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.97 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: galen2.dfg 
+SPASS derived 12 clauses, backtracked 0 clauses, performed 0 splits and kept 12000 clauses.
+SPASS allocated 302577 KBytes.
+SPASS spent	0:05:26.08 on the problem.
+		0:00:00.05 for the input.
+		0:03:14.78 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.21 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:13.94 for the reduction.
+
+
+Here is a proof with depth 7, length 21 :
+1[0:Inp] ||  -> XLINKEDDOMINANTGENEINHERITED(skc1)*.
+2[0:Inp] || STATEORQUANTITY(skc1)* -> .
+116[0:Inp] DISEASESTATE(U) ||  -> PROCESSSTATE(U)*.
+147[0:Inp] PRIMARYACQUISITIONSTATE(U) ||  -> ACQUISITIONMODESTATE(U)*.
+150[0:Inp] GENETICALLYINHERITED(U) ||  -> GENETICALLYDETERMINED(U)*.
+153[0:Inp] ACQUISITIONMODESTATE(U) ||  -> DISEASESTATE(U)*.
+154[0:Inp] CONGENITAL(U) ||  -> PRIMARYACQUISITIONSTATE(U)*.
+1882[0:Inp] PROCESSSTATE(U) ||  -> STATE(U)*.
+1883[0:Inp] DOMINANTGENEINHERITED(U) ||  -> GENETICALLYINHERITED(U)*.
+1884[0:Inp] GENETICALLYDETERMINED(U) ||  -> CONGENITAL(U)*.
+1885[0:Inp] XLINKEDDOMINANTGENEINHERITED(U) ||  -> DOMINANTGENEINHERITED(U)*.
+1886[0:Inp] STATE(U) ||  -> STATEORQUANTITY(U)*.
+12263[0:Res:1.0,1885.0] ||  -> DOMINANTGENEINHERITED(skc1)*.
+12264[0:Res:1886.1,2.0] STATE(skc1) ||  -> .
+20396[0:SoR:12264.0,1882.1] PROCESSSTATE(skc1) ||  -> .
+20398[0:SoR:20396.0,116.1] DISEASESTATE(skc1) ||  -> .
+20400[0:SoR:20398.0,153.1] ACQUISITIONMODESTATE(skc1) ||  -> .
+20401[0:SoR:20400.0,147.1] PRIMARYACQUISITIONSTATE(skc1) ||  -> .
+20402[0:SoR:20401.0,154.1] CONGENITAL(skc1) ||  -> .
+20403[0:SoR:20402.0,1884.1] GENETICALLYDETERMINED(skc1) ||  -> .
+20404[0:SSi:20403.0,1883.0,150.0,1.1,12263.1] ||  -> .
+Formulae used in the proof : C A4722 A4670 A4667 A4664 A4663 A2067 A2066 A2065 A2064 A2063
+

@@ -1,0 +1,4 @@
+(load-ontology "../../../sofronie/DL/ONTOLOGIES/full-galen.cel")
+(ontology-prepared?)
+(classify-ontology)   
+

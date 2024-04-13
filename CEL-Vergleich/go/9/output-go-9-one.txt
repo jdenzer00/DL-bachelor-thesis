@@ -1,0 +1,35 @@
+International Allegro CL Enterprise Edition
+8.1 [Linux (x86)] (Jul 8, 2009 19:27)
+Copyright (C) 1985-2007, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This standard runtime copy of Allegro CL was built by:
+   [TC10941] TU Dresden - Fakultaet Informatik
+
+
+   * * * * * * * * * * *  CEL Version 1.1.2  * * * * * * * * * * * *
+   *                                                               *
+   *  CEL: [C]lassifier for the Description Logic [E][L]+          *
+   *  Supported description logic: EL+  (el+)                      *
+   *  Copyright (C) 2005-2009: B. Suntisrivaraporn and TU Dresden. *
+   *  CEL comes with ABSOLUTELY NO WARRANTY; use at your own risk. *
+   *  This is free software for research and evaluation purposes.  *
+   *  Commercial use is prohibited; please contact the author.     *
+   *                                                               *
+   *  Try (help) to see what CEL can do!                           *
+   *                                                               *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+CEL(1): Ontology[uri="urn:cel-ontology:default"; state=PREPARED]
+CEL(2): T
+CEL(3): #####################################################################################################
+Ontology[uri="urn:cel-ontology:default"; state=CLASSIFIED]
+CEL(4): 
+;; Preparing for module extraction...Done!
+((DEFINE-PRIMITIVE-CONCEPT GO_0015598 (AND GO_0015426 GO_0015181))
+ (DEFINE-PRIMITIVE-CONCEPT GO_0005275 GO_0005215)
+ (DEFINE-PRIMITIVE-CONCEPT GO_0005215 GO_0003674)
+ (DEFINE-PRIMITIVE-CONCEPT GO_0015181 (AND GO_0015179 GO_0015174))
+ (DEFINE-PRIMITIVE-CONCEPT GO_0015171 (AND GO_0046943 GO_0005275))
+ (DEFINE-PRIMITIVE-CONCEPT GO_0015174 GO_0015171))
+CEL(5): EOF
+Really exit lisp [n]? 

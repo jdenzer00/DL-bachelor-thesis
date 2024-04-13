@@ -1,0 +1,320 @@
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.75 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.04 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.27 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.13 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.74 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.26 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.83 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.15 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.27 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.22 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.79 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.27 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.72 on the problem.
+		0:00:00.05 for the input.
+		0:00:14.98 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.27 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.15 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.76 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.26 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.81 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.14 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.27 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.71 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.20 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.78 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.26 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.59 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.77 on the problem.
+		0:00:00.05 for the input.
+		0:00:15.06 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.27 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.72 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
+
+Warning: Flag EMLFuncNdeQ has no effect together with relational translation method
+SPASS V 3.5 
+SPASS beiseite: Proof found.
+Problem: nci3.dfg 
+SPASS derived 15 clauses, backtracked 0 clauses, performed 0 splits and kept 6687 clauses.
+SPASS allocated 142872 KBytes.
+SPASS spent	0:00:52.28 on the problem.
+		0:00:00.06 for the input.
+		0:00:14.88 for the FLOTTER CNF translation, of which
+		0:00:00.00 for the translation from EML to FOL.
+		0:00:00.26 for inferences.
+		0:00:00.00 for the backtracking.
+		0:00:02.58 for the reduction.
+
+
+Here is a proof with depth 2, length 13 :
+1[0:Inp] ||  -> PASSIVE_SMOKE_EXPOSURE(skc1)*.
+2[0:Inp] || PROPERTIES_OR_ATTRIBUTES_KIND(skc1)* -> .
+3082[0:Inp] PERSONAL_ATTRIBUTE(U) ||  -> PROPERTIES_OR_ATTRIBUTES(U)*.
+3205[0:Inp] PASSIVE_SMOKE_EXPOSURE(U) ||  -> ENVIRONMENTAL_EXPOSURE(U)*.
+3206[0:Inp] ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U) ||  -> EXPOSURE(U)*.
+3209[0:Inp] PROPERTIES_OR_ATTRIBUTES(U) ||  -> PROPERTIES_OR_ATTRIBUTES_KIND(U)*.
+3404[0:Inp] EXPOSURE(U) ||  -> HEALTH_STATUS(U)*.
+3405[0:Inp] ENVIRONMENTAL_EXPOSURE(U) ||  -> ENVIRONMENTAL_AND_OCCUPATIONAL_EXPOSURE(U)*.
+3406[0:Inp] HEALTH_STATUS(U) ||  -> PERSONAL_ATTRIBUTE(U)*.
+6824[0:Res:1.0,3205.0] ||  -> ENVIRONMENTAL_EXPOSURE(skc1)*.
+6825[0:Res:3209.1,2.0] PROPERTIES_OR_ATTRIBUTES(skc1) ||  -> .
+12019[0:SoR:6825.0,3082.1] PERSONAL_ATTRIBUTE(skc1) ||  -> .
+12020[0:SSi:12019.0,3405.0,3206.0,3404.1,3406.1,1.1,6824.1] ||  -> .
+Formulae used in the proof : C A1169 A842 A841 A838 A632 A631 A630
+
