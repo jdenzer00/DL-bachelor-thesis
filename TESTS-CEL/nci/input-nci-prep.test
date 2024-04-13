@@ -1,4 +1,0 @@
-(load-ontology "../../../sofronie/DL/ONTOLOGIES/nciOntology.cel")
-(ontology-prepared?)
-(classify-ontology)   
-

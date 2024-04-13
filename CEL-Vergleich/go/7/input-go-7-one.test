@@ -1,4 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/gotestmodule.cel")
-(ontology-prepared?)
-(classify-ontology)
-(extract-mina GO_0019743 GO_0044255)

@@ -1,4 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/ncitestmodule.cel")
-(ontology-prepared?)
-(classify-ontology)
-(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Neurologic| |http://www.mindswap.org/2003/nciOncology.owl#Properties_or_Attributes_Kind|) 

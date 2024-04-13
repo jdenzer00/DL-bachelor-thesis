@@ -1,4 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/ncitestmodule.cel")
-(ontology-prepared?)
-(classify-ontology)
-(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Protein_Tyrosine_Phosphatase_Non-Receptor_Type_7| |http://www.mindswap.org/2003/nciOncology.owl#Protein_Kind|)

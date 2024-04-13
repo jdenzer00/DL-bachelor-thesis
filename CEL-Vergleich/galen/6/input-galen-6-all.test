@@ -1,5 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/full-galen.cel")
-(ontology-prepared?)
-(classify-ontology)
-(EXTRACT-ALL-MINAS |http://www.co-ode.org/ontologies/galen#BodyMassIndex| |http://www.co-ode.org/ontologies/galen#Quantity|)      
-

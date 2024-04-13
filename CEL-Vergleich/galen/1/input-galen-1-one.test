@@ -1,5 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/galentestmodule.cel")
-(ontology-prepared?)
-(classify-ontology)
-(EXTRACT-MINA |http://www.co-ode.org/ontologies/galen#hemisphere| |http://www.co-ode.org/ontologies/galen#StateOrQuantity|)      
-

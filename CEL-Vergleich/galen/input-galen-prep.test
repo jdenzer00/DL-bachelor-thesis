@@ -1,4 +1,0 @@
-(load-ontology "../../../sofronie/DL/ONTOLOGIES/galentestmodule.cel")
-(ontology-prepared?)
-(classify-ontology)   
-

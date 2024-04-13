@@ -1,4 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/ncitestmodule.cel")
-(ontology-prepared?)
-(classify-ontology)
-(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#Low_Grade_Sessile_Villous_Dysplasia_of_the_Murine_Intestinal_Tract| |http://www.mindswap.org/2003/nciOncology.owl#EO_Findings_and_Disorders_Kind|)

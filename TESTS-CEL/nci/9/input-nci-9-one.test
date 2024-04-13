@@ -1,4 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/nciOntology.cel")
-(ontology-prepared?)
-(classify-ontology)
-(extract-mina |http://www.mindswap.org/2003/nciOncology.owl#SAMR4_Mouse| |http://www.mindswap.org/2003/nciOncology.owl#Organism_Kind|)

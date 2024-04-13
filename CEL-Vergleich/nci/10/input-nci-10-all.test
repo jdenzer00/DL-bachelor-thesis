@@ -1,4 +1,0 @@
-(load-ontology "../../../../sofronie/DL/ONTOLOGIES/nciOntology.cel")
-(ontology-prepared?)
-(classify-ontology)
-(extract-all-minas |http://www.mindswap.org/2003/nciOncology.owl#Vacuolar_Protein_Sorting| |http://www.mindswap.org/2003/nciOncology.owl#Biological_Process_Kind|)
